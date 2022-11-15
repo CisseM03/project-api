@@ -3,18 +3,26 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
+name = ""
+
 
 
 class Person(BaseModel):
     first_name: str
     last_name: str
 
-@app.post("/yourname")
-async def create_item(item: Person):
-   x = {"name": item.__getattribute__("first_name"),"last_name": item.__getattribute__("last_name")}
 
-   with open("name.json", "w") as file:
-    file.write(str(x))
+@app.post("/cards")
+async def create_item(item: Person):
+    global name
+    name = item.__getattribute__("first_name") + " " + item.__getattribute__("last_name")
+    return name
+
+
+@app.get("/user")
+async def yourname():
+    print(name)
+    return "Your name is:", name
 
 
 @app.get("/japan")
@@ -24,7 +32,7 @@ async def japname():
     return {"message": "Your japanese name would be:", "name": named}
 
 
-@app.get("/america")
+@app.get("/american")
 async def americanname():
     fake = Faker('en_US')
     named = fake.name()
