@@ -21,7 +21,6 @@ async def create_item(item: Person):
 
 @app.get("/user")
 async def yourname():
-    print(name)
     return "Your name is:", name
 
 
