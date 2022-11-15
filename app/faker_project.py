@@ -10,12 +10,12 @@ origins = [
     "http://localhost:8080/",
     "https://localhost.tiangolo.com/",
     "http://127.0.0.1:5500/",
-    "https://cissem03.github.io"
+    "https://cissem03.github.io/"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
