@@ -47,7 +47,7 @@ async def japname():
     return {"message": "Your japanese name would be:", "name": named}
 
 
-@app.get("/american")
+@app.get("/america")
 async def americanname():
     fake = Faker('en_US')
     named = fake.name()
