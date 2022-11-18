@@ -11,13 +11,14 @@
   > De styling van mijn front end is eerder simplistisch, de tekst is gecentreerd en de achtergrond heeft een aangename kleur.
  
 * ### links
+  * ### back-end GitHub repo
+    * [back-end repo](https://github.com/CisseM03/project-api)
   * #### hosted API op Oketo
     * [Oketo endpoint](https://faker-project-cissem03.cloud.okteto.net)
     * [Oketo endpoint user](https://faker-project-cissem03.cloud.okteto.net/user)
     * [Oketo endpoint japan](https://faker-project-cissem03.cloud.okteto.net/japan)
     * [Oketo endpoint america](https://faker-project-cissem03.cloud.okteto.net/america)
-  * ### back-end GitHub repo
-    * [back-end repo](https://github.com/CisseM03/project-api)
+ 
   * #### front-end GitHub repo
     * [front-end repo](https://github.com/CisseM03/CisseM03.github.io)
   * #### link hosted front-end GitHub
