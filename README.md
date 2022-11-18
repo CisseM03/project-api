@@ -16,10 +16,10 @@
     * [Oketo endpoint user](https://faker-project-cissem03.cloud.okteto.net/user)
     * [Oketo endpoint japan](https://faker-project-cissem03.cloud.okteto.net/japan)
     * [Oketo endpoint america](https://faker-project-cissem03.cloud.okteto.net/america)
-  * #### front-end GitHub repo
-    * [front-end repo](https://github.com/CisseM03/CisseM03.github.io)
   * ### back-end GitHub repo
     * [back-end repo](https://github.com/CisseM03/project-api)
+  * #### front-end GitHub repo
+    * [front-end repo](https://github.com/CisseM03/CisseM03.github.io)
   * #### link hosted front-end GitHub
     * [home page](https://cissem03.github.io) <- post included
     * [Japan page](https://cissem03.github.io/japan.html)
